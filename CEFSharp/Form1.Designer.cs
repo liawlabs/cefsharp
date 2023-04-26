@@ -53,7 +53,7 @@
             // 
             // dtp
             // 
-            this.dtp.Location = new System.Drawing.Point(413, 115);
+            this.dtp.Location = new System.Drawing.Point(413, 135);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(200, 20);
             this.dtp.TabIndex = 2;
@@ -66,7 +66,7 @@
             "WinForm",
             "WPF",
             "UWP"});
-            this.cbApp.Location = new System.Drawing.Point(413, 78);
+            this.cbApp.Location = new System.Drawing.Point(413, 88);
             this.cbApp.Name = "cbApp";
             this.cbApp.Size = new System.Drawing.Size(121, 21);
             this.cbApp.TabIndex = 3;
