@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+    <title>Sample Webpage</title>
+    <style type="text/css">
+        div {
+            vertical-align: bottom;
+        }
+
+        label {
+            float: left;
+            width: 100px;
+        }
+
+        input, select {
+            margin-bottom: 10px;
+            width: 200px;
+        }
+    </style>
+    <script type="text/javascript">
+        function buttonPress() {
+            var str = document.getElementById("name").value;
+            alert("Application name is " + str);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <div>
+            <label>App Name:</label>
+            <input id="name" type="text" />
+            <input id="send" type="button" value="&#171;" style="width:30px; vertical-align: bottom;" onClick="buttonPress()" />
+        </div>
+        <div>
+            <label>Application:</label>
+            <select id="application">
+                <option>WinForm</option>
+                <option>WPF</option>
+                <option selected>UWP</option>
+            </select>
+        </div>
+        <div>
+            <label>Approval:</label>
+            <input id="approval" type="datetime-local" />
+        </div>
+    </form>
+</body>
+</html>
